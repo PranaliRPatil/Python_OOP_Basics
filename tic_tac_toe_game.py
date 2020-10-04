@@ -20,11 +20,19 @@ for key in theBoard:
 
 
 def printBoard(board):
-    print(board['7'] + '|' + board['8'] + '|' + board['9'])
-    print('-+-+-')
-    print(board['4'] + '|' + board['5'] + '|' + board['6'])
-    print('-+-+-')
-    print(board['1'] + '|' + board['2'] + '|' + board['3'])
+      """Add subscripted numbers to each box for User convinience to enter X/0 when his turn"""
+      # print(board['7'] + '|' + board['8'] + '|' + board['9'])
+      # print('-+-+-')
+      # print(board['4'] + '|' + board['5'] + '|' + board['6'])
+      # print('-+-+-')
+      # print(board['1'] + '|' + board['2'] + '|' + board['3'])
+      print(board['7'] + ' |' + board['8'] + '  |' + board['9'])
+      print('-\N{SUPERSCRIPT SEVEN}+-\N{SUPERSCRIPT EIGHT}-+\N{SUPERSCRIPT NINE}-')
+      print(board['4'] + ' |' + board['5'] + '  |' + board['6'])
+      # print('-+-+-')
+      print('-\N{SUPERSCRIPT FOUR}+-\N{SUPERSCRIPT FIVE}-+\N{SUPERSCRIPT SIX}-')
+      print(board['1'] + ' |' + board['2'] + '  |' + board['3'])
+      print(' \N{SUPERSCRIPT ONE}  \N{SUPERSCRIPT TWO}  \N{SUPERSCRIPT THREE} ')
 
 # Now we'll write the main function which has all the gameplay functionality.
 
