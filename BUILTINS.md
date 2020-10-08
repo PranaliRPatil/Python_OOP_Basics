@@ -38,3 +38,10 @@
       >>> any(my_list2) 
       False
     ```
+    
+4. ### **bin(x)**:
+   Convert an integer number to a binary string prefixed with “0b”.
+   ```python
+      >>> bin(10)
+      '0b1010'
+    ```
