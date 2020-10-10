@@ -45,3 +45,12 @@
       >>> bin(10)
       '0b1010'
     ```
+
+5. ### **bool(x)**:
+   Return a Boolean value, i.e. one of True or False. If x is false or omitted (any of like blank string/list/dictionary), this returns False; otherwise it returns True.
+   ```python
+      >>> bool([])
+      False
+      >>> bool('ab')
+      True 
+   ```
