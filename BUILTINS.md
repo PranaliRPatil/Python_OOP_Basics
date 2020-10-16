@@ -47,10 +47,20 @@
     ```
 
 5. ### **bool(x)**:
-   Return a Boolean value, i.e. one of True or False. If x is false or omitted (any of like blank string/list/dictionary), this returns False; otherwise it returns True.
+   Return a Boolean value, i.e. one of True or False. If x is false or omitted (any of like blank string/list/dictionary), this returns False; otherwise it returns True. 
    ```python
       >>> bool([])
       False
       >>> bool('ab')
       True 
    ```
+
+6. ### **zip(*iterables)**:
+   The purpose of zip() is to map the similar index of multiple containers so that they can be used just using as single entity. zip() should only be used with unequal length      inputs when you don’t care about trailing, unmatched values from the longer iterables.
+   ```python
+      >>> x = [1, 2, 3]
+      >>> y = [4, 5, 6]
+      >>> zipped = zip(x, y)
+      >>> list(zipped)
+      [(1, 4), (2, 5), (3, 6)]
+    ```
