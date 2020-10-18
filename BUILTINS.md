@@ -64,3 +64,12 @@
       >>> list(zipped)
       [(1, 4), (2, 5), (3, 6)]
     ```
+
+7. ### **oct(x)**:
+   Convert an integer number to an octal string prefixed with “0o”. The result is a valid Python expression.
+   ```python
+      >>>oct(8)
+      0o10
+      >>>oct(-56)
+      -0o70
+    ```
