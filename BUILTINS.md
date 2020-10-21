@@ -76,7 +76,7 @@
 
 8. ### **ord(x)**:
    Given a string representing one Unicode character, return an integer representing the Unicode code point of that character.
-   '''python
+   ```python
       >>> ord('A')
       65
-    '''
+   ```
