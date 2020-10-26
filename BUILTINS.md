@@ -74,9 +74,5 @@
       -0o70
     ```
 
-8. ### **ord(x)**:
-   Given a string representing one Unicode character, return an integer representing the Unicode code point of that character.
-   ```python
-      >>> ord('A')
-      65
-   ```
+8. ### **frozenset(*iterables)**:
+   Return a new frozenset object, optionally with elements taken from iterable.
