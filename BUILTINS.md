@@ -76,3 +76,12 @@
 
 8. ### **frozenset(*iterables)**:
    Return a new frozenset object, optionally with elements taken from iterable.
+   
+   
+9. ### **id(object)**:
+Return a new frozenset object, optionally with elements taken from iterable. This is an integer which is guaranteed to be unique and constant for this object during its        lifetime.
+```python
+   >>>a=10
+   >>>id(a)
+   140733894262112
+``` 
