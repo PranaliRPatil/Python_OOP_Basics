@@ -85,3 +85,11 @@ Return a new frozenset object, optionally with elements taken from iterable. Thi
    >>>id(a)
    140733894262112
 ``` 
+
+10. ### **id(iterable, *, key=None, reverse=False)**:
+Return a new sorted list from the items in iterable.
+```python
+   >>> a=[10,2,13,11]
+   >>> sorted(a)
+   [2, 10, 11, 13]
+```
