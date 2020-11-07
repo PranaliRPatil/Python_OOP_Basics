@@ -86,10 +86,20 @@ Return a new frozenset object, optionally with elements taken from iterable. Thi
    140733894262112
 ``` 
 
-10. ### **id(iterable, *, key=None, reverse=False)**:
+10. ### **sorted(iterable, *, key=None, reverse=False)**:
 Return a new sorted list from the items in iterable.
 ```python
    >>> a=[10,2,13,11]
    >>> sorted(a)
    [2, 10, 11, 13]
+```
+
+11. ### **zip(*iterables)**:
+Make an iterator that aggregates elements from each of the iterables.
+```python
+   >>> x = [1, 2, 3]
+   >>> y = [4, 5, 6]
+   >>> zipped = zip(x, y)
+   >>> list(zipped)
+   [(1, 4), (2, 5), (3, 6)]
 ```
