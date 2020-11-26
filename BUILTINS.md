@@ -95,7 +95,7 @@ Return a new sorted list from the items in iterable.
 ```
 
 11. ### **zip(*iterables)**:
-Make an iterator that aggregates elements from each of the iterables.
+Make an iterator that aggregates elements from each of the iterables
 ```python
    >>> x = [1, 2, 3]
    >>> y = [4, 5, 6]
