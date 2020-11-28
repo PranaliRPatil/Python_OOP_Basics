@@ -25,7 +25,7 @@
     ```
 
 3. ### **any(iterable)**:
-    Return True if any element of the iterable is true. If the iterable is empty, return False.
+    Return True if any element of the iterable is true. If the iterable is empty, return False
     Its somewhat similar to OR operation.
     ``` python
       >>> my_list = [1,'',2]
