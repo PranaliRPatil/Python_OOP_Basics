@@ -87,7 +87,7 @@ Return a new frozenset object, optionally with elements taken from iterable. Thi
 ``` 
 
 10. ### **sorted(iterable, *, key=None, reverse=False)**:
-Return a new sorted list from the items in iterable.
+Return a new sorted list from the items in iterable
 ```python
    >>> a=[10,2,13,11]
    >>> sorted(a)
